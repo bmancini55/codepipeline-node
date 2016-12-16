@@ -1,0 +1,22 @@
+{
+  "name": "codepipeline-node",
+  "version": "0.1.0",
+  "description": "Codepipeline test",
+  "scripts": {
+    "test": "mocha",
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmancini55/codepipeline-node.git"
+  },
+  "author": "Brian <bmancini@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "supertest": "^2.0.1"
+  }
+}
