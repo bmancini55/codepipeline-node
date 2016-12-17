@@ -1,6 +1,8 @@
 # codepipeline-node
 This is an example of CodePipeline using CodeBuild for a Node application.  It will run tests for node, then create a Docker image from the application and push it to an ECR Repository.
 
+## Usage
+
 To integrate this workflow into your own Node project:
 
 1. Copy the `Dockerfile`, `biuldspec.yml`, and `cloudformation.yml` files to the root of your project. They are all generic, so no changes are required.
